@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Offline, Online } from 'react-detect-offline';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Error from "./Components/Error/Error";
 import Home from "./Components/Home/Home";
 import ItemDetails from "./Components/ItemDetails/ItemDetails";
@@ -22,7 +22,7 @@ let {userData,setUserData,saveUserData}=useContext(AuthContext)
 
 
 
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {
       path: '/', element: <Layout userData={userData} setUserData={setUserData}/>, children: [
         { index: true, element:<ProtectedRoute userData={userData}><Home /></ProtectedRoute> },
