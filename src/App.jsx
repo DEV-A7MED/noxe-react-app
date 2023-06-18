@@ -19,9 +19,6 @@ import { AuthContext } from './Context/AuthStore';
 function App() {
 
 let {userData,setUserData,saveUserData}=useContext(AuthContext)
-
-
-
   let routers = createHashRouter([
     {
       path: '/', element: <Layout userData={userData} setUserData={setUserData}/>, children: [

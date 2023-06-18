@@ -25,8 +25,8 @@ export default function Login({saveUserData}) {
 
   }
   async function SendLoginData() {
-    let { data } = await axios.post(`https://sticky-note-fe.vercel.app/signin`, user);
-
+    try {
+      let { data } = await axios.post(`https://form-git-master-dev-a7med.vercel.app/api/auth/logIn`, user);
     if (data.message === 'success') {
       setIsLoading(false);
       localStorage.setItem('userToken',data.token);
@@ -34,10 +34,9 @@ export default function Login({saveUserData}) {
       //login
       navigate('/');
     }
-    else {
-      setError(data.message);
+    } catch (error) {
+      setError(error.response.data.Error);
       setIsLoading(false);
-
     }
   }
   function submitData(e) {

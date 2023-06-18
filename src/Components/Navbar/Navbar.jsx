@@ -14,7 +14,8 @@ export default function Navbar({userData,logout}) {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        {userData?<ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                {userData?
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className={({ isActive }) =>
                                     isActive ? "nav-Link active-link" : "nav-Link" } to="">Home</NavLink>
@@ -43,7 +44,7 @@ export default function Navbar({userData,logout}) {
 
                             </li>
                             
-                            {userData?
+                    {userData?
                             <>
                             <li className="nav-item">
                                 <span className="nav-Link cursor-pointer" onClick={logout}>LogOut</span>

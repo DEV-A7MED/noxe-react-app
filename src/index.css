@@ -23,7 +23,7 @@ a{
   background-color: var(--lightBgColor);
 }
 .nav-item{
-  padding:0 10px;
+  padding:10px 10px;
 }
 .nav-Link{
   padding: 10px;
