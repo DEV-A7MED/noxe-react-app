@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/noxe-react-app/static/css/main.b336277c.css",
-    "main.js": "/noxe-react-app/static/js/main.a8818f72.js",
+    "main.css": "/noxe-react-app/static/css/main.e0c297d8.css",
+    "main.js": "/noxe-react-app/static/js/main.6a6153bd.js",
     "static/media/fa-solid-900.ttf": "/noxe-react-app/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/noxe-react-app/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/noxe-react-app/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/noxe-react-app/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
     "static/media/fa-v4compatibility.woff2": "/noxe-react-app/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/noxe-react-app/index.html",
-    "main.b336277c.css.map": "/noxe-react-app/static/css/main.b336277c.css.map",
-    "main.a8818f72.js.map": "/noxe-react-app/static/js/main.a8818f72.js.map"
+    "main.e0c297d8.css.map": "/noxe-react-app/static/css/main.e0c297d8.css.map",
+    "main.6a6153bd.js.map": "/noxe-react-app/static/js/main.6a6153bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b336277c.css",
-    "static/js/main.a8818f72.js"
+    "static/css/main.e0c297d8.css",
+    "static/js/main.6a6153bd.js"
   ]
 }
