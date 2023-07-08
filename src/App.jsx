@@ -39,9 +39,9 @@ let {userData,setUserData,saveUserData}=useContext(AuthContext)
   return (
     <>
       <div>
-        <Online><RouterProvider router={routers} /></Online>
+        <RouterProvider router={routers} />
           
-        <Offline><div className="detect-offline">You Are Offline</div></Offline>
+        
       </div>
     </>
   );
